@@ -45,7 +45,7 @@
 ### Вариант 1: Скачать и запустить
 
 # Скачать скрипт
-curl -O https://raw.githubusercontent.com/[yourname]/macos-dev-cleaner/main/macos_dev_cleaner.sh
+curl -O https://raw.githubusercontent.com/Kotik009112/MacOS-Developer-Cleaner/main/macos_dev_cleaner.sh
 
 # Дать права на выполнение
 chmod +x macos_dev_cleaner.sh
@@ -56,7 +56,7 @@ chmod +x macos_dev_cleaner.sh
 ### Вариант 2: Клонировать репозиторий
 
 # Клонировать репозиторий
-git clone https://github.com/[yourname]/macos-dev-cleaner.git
+git clone https://github.com/Kotik009112/MacOS-Developer-Cleaner.git
 cd macos-dev-cleaner
 
 # Запустить скрипт
@@ -219,7 +219,7 @@ alias find-large='find ~ -type f -size +100M -exec ls -lh {} \; | sort -hr | hea
 ## 📄 Лицензия и права
 
 ### 📜 Лицензия MIT
-Copyright (c) 2026 [Issak Foster]
+Copyright (c) 2026 Issak Foster
 
 Разрешается свободное использование, копирование, изменение, объединение, публикация, распространение, сублицензирование и/или продажа копий Программного обеспечения.
 
@@ -276,22 +276,9 @@ A: Рекомендуется для применения всех измене�
 - Xcode Help: Managing storage: https://help.apple.com/xcode/mac/current/#/dev7b1b6b5c5
 - Docker Documentation: Prune: https://docs.docker.com/config/pruning/
 - Homebrew Documentation: Cleanup: https://docs.brew.sh/Manpage#cleanup-options
-
----
-
-## 📞 Контакты и поддержка
-
-- 🐛 **Баги и проблемы**: Issues
-- 💡 **Идеи и обсуждения**: Discussions
-- 🔄 **Обновления**: Watch репозиторий
-- 📧 **Контакты**: [ваш email или телеграм]
-
+- 
 ---
 
 **Сделано с ❤️ для сообщества разработчиков macOS**
 
 *Освобождайте место, творите больше!* 🚀
-
-## 📄 Лицензия
-
-Этот проект распространяется под лицензией MIT. Смотри файл [LICENSE](LICENSE) для подробностей.

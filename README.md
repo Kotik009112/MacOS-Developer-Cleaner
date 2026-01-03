@@ -271,12 +271,28 @@ A: Рекомендуется для применения всех измене�
 - **Мало места после очистки** - проверьте большие файлы вручную: `ncdu ~`
 
 ### 📚 Дополнительные ресурсы
-- Официальная документация Apple: https://support.apple.com/ru-ru/HT202867
-- Unity Manual: Cache Server: https://docs.unity3d.com/Manual/CacheServer.html
-- Xcode Help: Managing storage: https://help.apple.com/xcode/mac/current/#/dev7b1b6b5c5
-- Docker Documentation: Prune: https://docs.docker.com/config/pruning/
-- Homebrew Documentation: Cleanup: https://docs.brew.sh/Manpage#cleanup-options
-- 
+
+#### Unity:
+- **Unity Accelerator**: https://docs.unity3d.com/Manual/UnityAccelerator.html
+- **Package Manager Cache**: https://docs.unity3d.com/Manual/upm-cache.html
+- **Managing Disk Space**: https://docs.unity3d.com/Manual/ManagingDiskSpace.html
+- **Типичные папки для очистки**: `~/Library/Unity`, `~/Library/Logs/Unity/`
+
+#### Apple:
+- **Освобождение места на Mac**: https://support.apple.com/ru-ru/HT202867
+- **Управление хранилищем**: Системные настройки → Общее → Хранилище
+
+#### Xcode:
+- **Managing storage**: https://help.apple.com/xcode/mac/current/#/dev7b1b6b5c5
+- **Cleaning DerivedData**: Terminal → `rm -rf ~/Library/Developer/Xcode/DerivedData`
+
+#### Docker:
+- **Prune system**: https://docs.docker.com/config/pruning/
+- **Disk usage**: `docker system df`
+
+#### Homebrew:
+- **Cleanup command**: https://docs.brew.sh/Manpage#cleanup-options
+- **Disk usage**: `brew cleanup -n`
 ---
 
 ## 🤝 Участие в разработке

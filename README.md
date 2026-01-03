@@ -275,7 +275,6 @@ A: Рекомендуется для применения всех измене�
 #### Unity:
 - **Unity Accelerator**: https://docs.unity3d.com/Manual/UnityAccelerator.html
 - **Package Manager Cache**: https://docs.unity3d.com/Manual/upm-cache.html
-- **Managing Disk Space**: https://docs.unity3d.com/Manual/ManagingDiskSpace.html
 - **Типичные папки для очистки**: `~/Library/Unity`, `~/Library/Logs/Unity/`
 
 #### Apple:
